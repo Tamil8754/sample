@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #7ABD83;
+    
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0 20px;
+    flex-grow: 1;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.home{
+   background-color:#9BEE94; 
+   width: 100%;
+   height: 600px;
+   display: flex;
+
+}
+.text{
+    padding-left: 80px;
+}
+.xbutton{
+    margin-left: 50px;
+}
+.xbutton button{
+    padding: 15px;
+    border: #000;
+    color:white;
+    width: 120px;
+    background-color: #000;
+    border-radius:70px;
+    font-size: 13px;
+}
+.home p{
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+#ptag{
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: bold;
+    margin-left: 50px;  
+    margin-bottom: 20px;
+}
+
+.proimg{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 100px;
+
+}
+.proimg img{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    border: 5px solid tomato;
+    border-left: #000;
+    border-right: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shop{
+    border: 3px solid black;
+    background-color: antiquewhite;
+    width: 240px;
+    height: 310px;
+    margin: 20px;
+}
+.shoptxt{
+    padding:20px;
+}
+.shoptxt img{
+    width: 200px;
+    height: 200px;
+    
+}
+#section-3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 50px;
+}
